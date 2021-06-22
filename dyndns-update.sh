@@ -10,7 +10,7 @@ user=
 password=
 host=
 echo "....."
-echo "meine ip"
+echo "my ip"
 echo "$ipinfo" 
 
 curl https://$user:$password@dyndns.strato.com/nic/update?hostname=$host&myip=$ipinfo
