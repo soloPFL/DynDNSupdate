@@ -1,5 +1,5 @@
 # DynDNSupdate
-A little bash script to update Strato DynDNS 
+A little bash script to update Strato DynDNS\ 
 [![Creative Commons
 License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)\
 This work is licensed under a [Creative Commons Attribution-ShareAlike
