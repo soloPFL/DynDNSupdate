@@ -1,6 +1,7 @@
 #!/bin/bash 
 ipinfo=$(curl ifconfig.co/ip)
 
+# https://github.com/soloPFL/DynDNSupdate
 # Please add your username, password and host you want to update in the next lines.
 # then just execute the script to update the ip. 
 
