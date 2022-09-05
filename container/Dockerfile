@@ -2,7 +2,7 @@ FROM alpine:3.16
 
 LABEL author="https://github.com/Brottus" version="1.0"
 
-ENV user= password= host=
+ENV user= password= host= sleeptimer=2160
 
 RUN apk add --no-cache bash curl moreutils
 
