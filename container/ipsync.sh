@@ -1,5 +1,4 @@
 #!/bin/bash 
-ipinfo=$(curl ifconfig.co/ip)
 
 # https://github.com/soloPFL/DynDNSupdate
 # http://creativecommons.org/licenses/by-sa/4.0/
@@ -18,6 +17,7 @@ fi
 
 while true
 do
+    ipinfo=$(curl ifconfig.co/ip)
     echo "my current ip $ipinfo" | ts '[%Y-%m-%d %H:%M:%S]'
 
     returnvalue=$(curl --fail-with-body https://$user:$password@dyndns.strato.com/nic/update?hostname=$host&myip=$ipinfo)
