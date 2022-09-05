@@ -28,7 +28,7 @@ do
     exit 1
     fi
 
-    if [ $returnvalue -ne "ok $ipinfo" ]; then
+    if [[ $returnvalue =~ "ok" ]]; then
     echo "IP update failed" | ts '[%Y-%m-%d %H:%M:%S]'
     exit 1
     fi
