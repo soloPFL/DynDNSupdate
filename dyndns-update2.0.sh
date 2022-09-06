@@ -24,7 +24,7 @@ then
 curl https://$user:$password@dyndns.strato.com/nic/update?hostname=$host&myip=$ipinfo
 echo "$host status update complete"
 else
-exit 0
+echo "no update needed."
 fi
 
 
