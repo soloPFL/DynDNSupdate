@@ -19,7 +19,7 @@ oldentry=$(dig +short $host)
 echo "existing dns entry"
 echo "$oldentry"
 
-if [! $oldentry == $ipinfo]
+if [ ! $oldentry == $ipinfo ]
 then
 curl https://$user:$password@dyndns.strato.com/nic/update?hostname=$host&myip=$ipinfo
 echo "$host status update complete"
